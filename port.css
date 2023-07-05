@@ -1,0 +1,454 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #081b29;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #093a5e;
+    height: 55px;
+    position: sticky;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: 500;
+    font-size: 16px;
+    color: #189cfd;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+/* nav bar  */
+
+/* introduction  */
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    /* border: green solid 1px; */
+}
+
+.introduction>div {
+    width: 30%;
+}
+
+.rightsection img {
+    width: 55%;
+    margin: 50px 74px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+    top: 0px;
+}
+
+
+.rightsection img:hover {
+    width: 55%;
+    margin: 50px 74px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+    transform: rotate3d(10, 247, 0, 170deg);
+    top: 0px;
+}
+
+@keyframes example {
+    from {
+        left: 0px;
+    }
+
+    to {
+        top: 20px
+    }
+}
+
+.leftsection {
+    font-size: 26px;
+    /* border: red solid 1px; */
+    text-align: justify;
+}
+
+.name {
+    color: #189cfd;
+}
+
+#element {
+    color: #189cfd;
+}
+
+.Download_btn {
+    position: relative;
+    top: 109px;
+    background: transparent;
+    right: 557px;
+    border: 2px solid rgb(24, 156, 253);
+    color: rgb(24, 156, 253);
+    padding: 10px;
+    width: 169px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#dicon {
+    color: #189cfd;
+    position: relative;
+    left: 8px;
+}
+
+.Download_btn:hover {
+    border: 2px solid rgb(238, 241, 243);
+    color: rgb(253, 254, 255);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Download_btn:hover #dicon {
+    color: rgb(253, 254, 255);
+    font-size: 16px;
+}
+
+/* introduction */
+
+/* skills */
+
+.Skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    margin-top: 150PX;
+    flex-direction: column;
+    /* border: RED solid 1PX; */
+}
+
+
+.glass {
+    /* background: #131313; */
+    background-color: black;
+    border-radius: 16px;
+    margin: 20px;
+    box-shadow: 0 2px 10px 0 #189cfd;
+}
+
+.top_skill {
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    text-shadow: 1px 0 1px  white;
+    letter-spacing: 2px;
+}
+
+.skill1 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#SkillRepresent {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    justify-content: space-around;
+    align-items: center;
+    width: 260px;
+    height: 350px;
+    background: rgb(255, 255, 255,0.08);
+    border-radius: 20px;
+}
+
+#SkillRepresent:hover{
+    cursor: pointer;
+    /* border: white solid 2px; */
+    box-shadow: 0 2px 8px 0 white;
+    border: white solid 1px;
+    position: relative;
+    top: -30px;
+}
+
+.heading{
+    display: flex;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+}
+
+
+#frontend_icon{
+    height: 32%;
+    width: 40%;
+}
+
+#java_icon{
+    height: 30%;
+    width: 68%;
+}
+
+#c_icon{
+    height: 28%;
+    width: 35%;
+}
+
+#ui_icon{
+    height: 31%;
+    width: 40%;
+}
+
+/* skills  */
+
+/* projects */
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    margin-top: 150PX;
+    flex-direction: column;
+    /* border: RED solid 1PX; */
+}
+
+
+.project_back {
+    /* background: #131313; */
+    background-color: white;
+    border-radius: 16px;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0 2px 10px 0 #189cfd; */
+}
+
+.top_project {
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    color: black;
+    text-shadow: 1px 0 1px  black;
+    letter-spacing: 2px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.project1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px 0 black;
+    border: black solid 1px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.project_gallary{
+       margin: 5px;
+       /* border: red solid 1px; */
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin: 10px;
+}
+
+.ss{
+    display: flex;
+    flex-direction: column;
+    /* border: green solid 1px; */
+    margin: 23px;
+    justify-content: center;
+    height: 390px;
+    width: 180px;
+    border-radius: 16px;
+}
+
+#img1{
+    object-fit: fill;
+    border-radius: 20px;
+    width: 182px;
+    cursor: pointer;
+   border: grey solid 1px;
+}
+
+.prdetails{
+    margin: 40px;
+    margin-top: 50px;
+    width: 1047px;
+    height: 254px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #081b29 1px;
+    text-align: justify;
+}
+
+#Viewmore_btn{
+    position: relative;
+    background: transparent;
+    border: 2px solid rgb(24, 156, 253);
+    color: rgb(24, 156, 253);
+    padding: 10px;
+    width: 169px;
+    border-radius: 6px;
+    font-size: 15px;
+    /* margin: 5px; */
+    margin-bottom: 20px;
+}
+
+#Viewmore_btn a{
+    text-decoration: none;
+    color: white;
+}
+
+#Viewmore_btn:hover{
+    cursor: pointer;
+}
+
+/* projects  */
+
+/* contact me  */
+.contact_me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: transparent;
+    border: red 1px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: transparent;
+    border: rgb(112, 15, 15) 1px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.top_contact{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.profile{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.detail{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 340px;
+    color: black;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius:16px;  
+}
+ .profile{
+    width: 30%;
+}
+
+#name{
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+#social{
+ margin-left: 20px;
+}
+/* contact me  */

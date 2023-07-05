@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="port.css">
+    <link rel="shortcut icon" href="portfolio.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a654db4baf.js" crossorigin="anonymous"></script>
+    <title>PORTFOLIO</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Het's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></a></li>
+                    <li><a href="#skills">Skills</a></a></li>
+                    <li><a href="#projects">Projects</a></a></li>
+                    <li><a href="#contact me">Contact Me</a></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="introduction" id="Home">
+            <div class="leftsection">Hi, My name is <span class="name">Het</span>
+                <div>I am passionate</div>
+                <span id="element"></span>
+            </div>
+            <a href="https://drive.google.com/file/d/1kfnUCGsqE89EjMF1bSZ_TySqn6hJuINT/view?usp=sharing"
+                target="_blank"><button class="Download_btn">
+                    Download CV <i id="dicon" class="fa fa-file-pdf-o"></i></button></a>
+            <div class="rightsection"><img src="bg.jpeg" alt=""></div>
+        </section>
+
+        <section class="Skills" id="skills">
+            <div class="glass">
+                <div class="top_skill">SKILLS</div>
+                <div class="skill1">
+
+                    <div class="skill_1" id="SkillRepresent">
+                        <img src="frontend.png" id="frontend_icon">
+                        <p class="heading"> Frontend Web Devlopment </p>
+                    </div>
+
+                    <div class="skill_2" id="SkillRepresent">
+                        <img src="java.png" id="java_icon">
+                        <p class="heading">JAVA</p>
+                    </div>
+
+                    <div class="skill_3" id="SkillRepresent">
+                        <img src="c++.png" id="c_icon">
+                        <p class="heading">C++</p>
+                    </div>
+
+                    <div class="skill4_" id="SkillRepresent">
+                        <img src="ui.png" id="ui_icon">
+                        <p class="heading">UI Design</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+
+            <div class="project_back">
+
+                <div class="top_project">PROJECTS</div>
+
+                <div class="project">
+
+                    <div class="project1">
+                        <p class="project_tittle1">1. Supermaeket Checkout Android App</p>
+                        <div class="project_gallary">
+                            <div class="ss"><img src="splash screen.png" id="img1"></div>
+                            <div class="ss"><img src="home page.png" id="img1"></div>
+                            <div class="ss"><img src="dashboard.png" id="img1"></div>
+                            <div class="ss"><img src="payment detect.png" id="img1"></div>
+                            <div class="ss"><img src="reward.png" id="img1"></div>
+                        </div>
+                        <div class="prdetails">
+                            Supermaeket Checkout Android App <br> <br>
+                            Supermarket checkout app that lets allow you to automatically scan the products
+                            on your mobile app while shopping in a supermarket and allow you to makes payments
+                            for your purchases. when people going for shopping in supermarket. there are long queues at
+                            time of check-
+                            out. people have to wait for there turn Sometimes it takes Too much time for Checkout
+                            so it’s becomes very Time consuming process for people. According to surveys many
+                            people are becomes irritated and frustrated while standing in long queue for checkout
+                            process in Supermarket so Supermarket checkout app is an Android Application which
+                            Is used for make fast payments and to make better checkout experience for customers
+                        </div>
+                        <a href="https://drive.google.com/file/d/1GsemY5pz_4UOs1hLRfYMp5o4uaLkNQc5/view?usp=drive_link"
+                            target="_blank"><button id="Viewmore_btn">
+                                View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact_me" id="contact me">
+            <div class="contact">
+                <div class="profile">
+                     <p class="top_contact">PROFILE</p>
+                     <img src="profile.png"  class="profile">
+                     <p id="name">HET DOSHI</p>
+                     <div class="social">
+                       <a href="https://www.linkedin.com/in/het-doshi-7b9966201/" target="_blank"><i class="fa-brands fa-linkedin-in fa-2xl" id="social" style="color: #189cfd;"></i></a>
+                       <a href="https://github.com/het-doshi" target="_blank"><i class="fa-brands fa-github fa-2xl" id="social" style="color:#189cfd;"></i></a>
+                       <a href="mailto:hetdoshi2020@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl" id="social" style="color: #189cfd;"></i></a>
+                     </div>
+                </div>
+                <div class="detail">
+                    <p class="top_contact">ABOUT ME</p>
+                </div>
+            </div>
+        </section>
+         <br><br>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Devloper', 'Ui Designer', 'Graphic Designer','Android Devloper'],
+            typeSpeed: 70,
+            loop: true,
+        });
+    </script>
+
+</body>
+
+</html>
