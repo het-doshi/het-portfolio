@@ -216,6 +216,7 @@ nav ul li a:hover {
     border: white solid 1px;
     position: relative;
     top: -30px;
+    transition: all 1.5 ease;
 }
 
 .heading{
