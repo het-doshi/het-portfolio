@@ -360,6 +360,9 @@ nav ul li a:hover {
     font-size: 15px;
     /* margin: 5px; */
     margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
 #Viewmore_btn a{
