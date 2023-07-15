@@ -349,7 +349,7 @@ nav ul li a:hover {
     text-align: justify;
 }
 
-#Viewmore_btn a{
+#Viewmore_btn{
     position: relative;
     background: transparent;
     border: 2px solid rgb(24, 156, 253);
@@ -367,6 +367,7 @@ nav ul li a:hover {
 
 #Viewmore_btn a{
     text-decoration: none;
+    text-alignment: center
     color: white;
 }
 
