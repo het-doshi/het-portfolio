@@ -16,12 +16,14 @@ body {
 
 /* nav bar */
 nav {
-    display: flex;
-    justify-content: space-around;
+justify-content: space-around;
     align-items: center;
     background-color: #093a5e;
-    height: 55px;
-    position: sticky;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
 
 }
 
@@ -42,7 +44,7 @@ nav ul li a {
     text-decoration: none;
     margin: 0 12px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     color: white;
 }
 
@@ -52,8 +54,18 @@ nav ul li a:hover {
     color: #189cfd;
 }
 
-.left {
-    font-size: 1.5rem;
+
+    
+.left{
+    position: absolute;
+    left: 70px;
+    font-size: 21px;
+}
+
+
+.right{
+    position: absolute;
+    right: 120px;
 }
 
 /* nav bar  */
